@@ -1,7 +1,7 @@
-var taskInput = document.getElementById('new-task'); // new-task
-var addButton = document.getElementsByTagName('button')[0]; //first button
-var incompleteTasksHolder = document.getElementById('incomplete-tasks'); // incomplete-tasks
-var completedTasksHolder = document.getElementById('completed-tasks'); // completed-tasks
+var taskInput = document.getElementById('new-task'); 
+var addButton = document.getElementsByTagName('button')[0];
+var incompleteTasksHolder = document.getElementById('incomplete-tasks'); 
+var completedTasksHolder = document.getElementById('completed-tasks'); 
 
 var createNewTaskElement = function(taskString){
   var listItem = document.createElement('li');
@@ -89,7 +89,7 @@ var bindTaskEvents = function(taskListItem, checkBoxEventHandler){
 }
 
 var ajaxRequest = function (){
-  console.log('ajax request');
+
 }
 
 //addButton.onclick = addTask;
